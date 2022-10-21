@@ -5,12 +5,9 @@
  */
 void print_numbers(void)
 {
-	int a = 48;
+	int a = 0;
 
-	while (a <= 57)
-	{
-		_putchar('a');
-		a++
-	}
+	while (a < 10)
+		_putchar(a++ + '0');
 	_putchar('\n');
 }
