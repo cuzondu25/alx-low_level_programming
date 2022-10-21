@@ -8,7 +8,13 @@ void more_numbers(void);
 	for (int i = 0; i < 10; i++)
 	{
 		for (int j = 0; j < 15; j++)
-			_putchar(j + '0');
+		{
+			if (j < 9)
+			{
+				_putchar((j / 10) + '0');
+			}
+			_putchar((j % 10) + '0');
+		}
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
