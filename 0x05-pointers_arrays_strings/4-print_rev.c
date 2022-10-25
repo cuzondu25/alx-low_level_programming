@@ -3,7 +3,7 @@
  * print_rev - print in reverse
  * @s: string
  */
-void print_rev(char *s);
+void print_rev(char *s)
 {
 	int i = 0;
 

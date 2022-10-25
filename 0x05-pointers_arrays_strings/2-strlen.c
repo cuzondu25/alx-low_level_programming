@@ -5,7 +5,7 @@
  * @s: string
  * Return: success 1
  */
-int _strlen(char *s);
+int _strlen(char *s)
 {
 	int len = 0;
 

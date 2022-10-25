@@ -3,7 +3,7 @@
  * puts2 - prints and omitts one character
  * @str: string
  */
-void puts2(char *str);
+void puts2(char *str)
 {
 	int i = 0;
 
